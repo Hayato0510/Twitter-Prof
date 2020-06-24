@@ -11,6 +11,10 @@
 |
 */
 
+//Twitter詳細プロフページ
 Route::get('prof', function () {
     return view('twitter.prof');
 });
+
+// OS判定 → 遷移
+Route::get('dl', 'AdController@os');
