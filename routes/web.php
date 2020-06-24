@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('prof', function () {
+    return view('twitter.prof');
 });
