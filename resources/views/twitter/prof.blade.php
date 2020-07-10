@@ -7,9 +7,9 @@
         <link href="{{ secure_asset('css/prof.css') }}" rel="stylesheet">
     </head>
     <body>
-        <img src="{{ asset('img/prof_top.jpg') }}"></img>
-        <img src="{{ asset('img/long_prof.jpg') }}"></img>
-        <a href="./dl"><img src="{{ asset('img/prof_message_2.jpg') }}"></img></a>
-        <img src="{{ asset('img/prof_bottom.jpg') }}"></img>
+        <img src="{{ asset('img/ttw_1.jpg') }}"></img>
+        <img src="{{ asset('img/ttw_2.jpg') }}"></img>
+        <a href="./dl"><img src="{{ asset('img/prof_message_2_1.jpg') }}"></img></a>
+        <img src="{{ asset('img/ttw_4.jpg') }}"></img>
     </body>
 </html>
