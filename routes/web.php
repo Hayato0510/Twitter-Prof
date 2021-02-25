@@ -12,8 +12,8 @@
 */
 //獲得用
 Route::get('app1', function () {
-    return view('fb.check'); //提出用
-    // return redirect('https://a-trade.jp/redirect/biscor?media=G16531'); //ビスコール - Aトレード
+    // return view('fb.check'); //提出用
+    return redirect('https://a-trade.jp/redirect/biscor?media=G16531'); //ビスコール - Aトレード
 });
 
 //確認用
