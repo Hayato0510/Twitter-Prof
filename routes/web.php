@@ -13,12 +13,12 @@
 //獲得用
 Route::get('app1', function () {
     return view('fb.check'); //提出用
-    // return redirect('https://a-trade.jp/redirect/biscor?media=G16531'); //ビスコール - Aトレード
+    // return redirect('https://a-trade.jp/redirect/popo?media=G16531'); //PoPo - Aトレード
 });
 
 //確認用
 Route::get('cccheck', function () {
-    return redirect('https://a-trade.jp/redirect/biscor?media=G16531'); //ビスコール - Aトレード
+    return redirect('https://a-trade.jp/redirect/popo?media=G16531'); //PoPo - Aトレード
 });
 
 // Twitter詳細プロフページ
