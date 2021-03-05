@@ -12,8 +12,8 @@
 */
 //獲得用
 Route::get('app1', function () {
-    // return view('fb.check'); //提出用
-    return view('fb.adult'); //アダルト - LINE@誘導
+    return view('fb.check'); //提出用
+    // return view('fb.adult'); //アダルト - LINE@誘導
     
     // return redirect('https://a-trade.jp/redirect/moa?media=G16531'); //モア - Aトレード
     // return redirect('https://a-trade.jp/redirect/popo?media=G16531'); //PoPo - Aトレード
