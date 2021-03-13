@@ -12,8 +12,8 @@
 */
 //獲得用
 Route::get('app1', function () {
-    return view('fb.check'); //提出用
-    // return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=21253'); //直友達追加リダイレクト - iOS
+    // return view('fb.check'); //提出用
+    return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=21253'); //直友達追加リダイレクト - iOS
     
     // return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=21252'); //友達追加リダイレクト - iOS
     // return view('fb.adult'); //アダルト - LINE@誘導
@@ -23,8 +23,8 @@ Route::get('app1', function () {
 
 //獲得用
 Route::get('app11', function () {
-    return view('fb.check'); //提出用
-    // return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=21193'); //直友達追加リダイレクト - And
+    // return view('fb.check'); //提出用
+    return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=21193'); //直友達追加リダイレクト - And
     
     // return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=21192'); //友達追加リダイレクト - And
 });
