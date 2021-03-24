@@ -20,8 +20,8 @@ class AdController extends Controller
     public function os(Request $request) {
         $user_agent =  $request->header('User-Agent');
         if ((strpos($user_agent, 'iPhone') !== false)) {
-            return redirect('https://preaf.jp/pa.do?s=v04451&o=45765&guid=ON'); //トークウィズ - preaf - Google広告_test    
+            return redirect('https://fam-ad.com/ad/p/dt?_site=64802&_loc=246369&_mstype=99'); //ワクワク(男性訴求) - fam
         }
-        return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=16216'); //トリトモ - fam
+        return redirect('https://fam-ad.com/ad/p/dt?_site=64802&_loc=246369&_mstype=99'); //ワクワク(男性訴求) - fam
     }
 }
